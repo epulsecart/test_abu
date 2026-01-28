@@ -1,0 +1,11 @@
+DiagramType,MustInclude,MustNotInclude,SourceRefs
+Conceptual Model,الكيانات الأساسية والعلاقات عالية المستوى وحدود النطاق.,تفاصيل الحقول أو الفهارس.,03_DATA_MODEL/Data_Dictionary.csv; RTM FR-001..FR-006
+Domain Model,"علاقات كائنات الأعمال الأساسية (Orders, Items, Stages, QC, Payroll).",تفاصيل الصفحات أو API endpoints.,RTM FR-001..FR-075; Data_Dictionary.csv
+Logical ERD,الجداول الأساسية والعلاقات والحقول الرئيسية.,تفاصيل التنفيذ الفيزيائي.,03_DATA_MODEL/Data_Dictionary.csv
+Physical ERD,الجداول والفهارس والقيود الرئيسية.,قواعد العمل أو الواجهات.,03_DATA_MODEL/Data_Dictionary.csv
+Process Flow,الأحداث، الحراس، الأدوار، ومسارات الاستثناء.,تفاصيل تخطيط الشاشة.,02_RTM/RTM.csv; 04_UI_PAGES/Pages_Index.csv
+State Machine,الحالات والانتقالات والحراس ومسارات الاستثناء والجهات المحركة وربط ReqIDs.,تفاصيل واجهة المستخدم أو قوائم الأعمدة أو معادلات تفصيلية.,02_RTM/RTM.csv; 03_DATA_MODEL/Status_Enums.csv
+Integration Flow,الأنظمة والاتجاه والمصادقة وIdempotency وRate limits.,تفاصيل قواعد العمل الداخلية.,05_API/API_Inventory.csv; 05_API/Integration_Priority.csv; SEC-008..SEC-010
+Security,الأدوار والصلاحيات وRLS والإجراءات الحساسة.,أسرار أو مفاتيح فعلية.,06_SECURITY/RBAC_Matrix.csv; RTM SEC-001..SEC-007
+Architecture,البيئات والنشر والترحيل والنسخ الاحتياطي.,قواعد العمل التفصيلية.,08_OPS/Deployment_Runbook.md; NFR-010; NFR-011
+Format/Export,تصدير PDF + PNG، إطار مضبوط بلا عناصر خارج الإطار، تسمية d###_<type>_<name>.,أسرار أو بيانات تشغيلية.,ASSUMPTIONS.md A-033
